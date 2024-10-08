@@ -1,6 +1,6 @@
 use std::fs;
 
-use xmss_rs::verify;
+use xmss_rs::level5::verify;
 
 fn parseargs() -> (String, String, String) {
     let args: Vec<String> = std::env::args().collect();

@@ -1,7 +1,7 @@
 use std::fs::File;
 use std::io::prelude::*;
 
-use xmss_rs::keypair;
+use xmss_rs::level5::keypair;
 
 fn main() -> std::io::Result<()> {
     let (pk, sk) = keypair();

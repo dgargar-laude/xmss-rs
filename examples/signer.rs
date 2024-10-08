@@ -1,7 +1,7 @@
 use std::fs::{self, File};
 use std::io::prelude::*;
 
-use xmss_rs::sign;
+use xmss_rs::level5::sign;
 
 
 fn parseargs() -> (String, String, String) {
